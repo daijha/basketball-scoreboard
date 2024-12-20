@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+        <link href="https://fonts.cdnfonts.com/css/cursed-timer-ulil" rel="stylesheet">      
+    </head>
+    <body>
+        <h1 class="tittle"> Basketball Scoreboard <h1>
+        <div class="container">
+            <div class="column">
+                <h3>HOME</h3>
+                <h2 class="score" id="home-score"> 0</h2>
+                <div>
+                    <button id="home-button-one" onclick="increaseHomeScoreOne()">+1</button>
+                    <button id="home-button-two" onclick="increaseHomeScoreTwo()">+2</button>
+                    <button id="home-button-three" onclick="increaseHomeScoreThree()">+3</button>
+                </div>
+            </div>
+             <div class="column">
+                <h3>GUEST</h3>
+                <h2 class="score" id="guest-score"> 0</h2>
+                <div>
+                    <button id="guest-button-one" onclick="increaseGuestScoreOne()">+1</button>
+                    <button id="guest-button-two" onclick="increaseGuestScoreTwo()">+2</button>
+                    <button id="guest-button-three" onclick="increaseGuestScoreThree()">+3</button>
+                </div>
+             </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
